@@ -8,7 +8,7 @@ class Animal():
 class Dog(Animal):
     def __init__(self, name:str, age:int,breed):
         super().__init__(name,age)
-    def bark():
+    def bark(self):
         print("Woof-woof")
 
 knopa = Dog("Knopa", 5, "mongrel")
